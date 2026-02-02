@@ -14,5 +14,6 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
+          user: BDEInfo
           output_action: commit
           token: ${{ secrets.METRICS_TOKEN }}
